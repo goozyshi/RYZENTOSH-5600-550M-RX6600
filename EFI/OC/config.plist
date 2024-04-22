@@ -22,6 +22,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-EC-USBX-DESKTOP.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-EC.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -180,8 +188,6 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Slot-1</string>
 				<key>@0,name</key>
 				<string>ATY,Henbury</string>
 				<key>@1,name</key>
@@ -190,6 +196,8 @@
 				<string>ATY,Henbury</string>
 				<key>@3,name</key>
 				<string>ATY,Henbury</string>
+				<key>AAPL,slot-name</key>
+				<string>Slot-1</string>
 				<key>ATY,DeviceName</key>
 				<string>W6600X</string>
 				<key>ATY,EFIVersion</key>
@@ -240,6 +248,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VirtualSMC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>NVMeFix.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/NVMeFix</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>

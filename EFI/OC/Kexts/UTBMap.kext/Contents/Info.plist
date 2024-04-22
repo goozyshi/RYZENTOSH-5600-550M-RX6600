@@ -48,16 +48,16 @@
 						<integer>3</integer>
 						<key>port</key>
 						<data>
-						BwAAAA==
+						BQAAAA==
 						</data>
 					</dict>
 					<key>HS02</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
-						CgAAAA==
+						BwAAAA==
 						</data>
 					</dict>
 					<key>HS03</key>
@@ -66,10 +66,28 @@
 						<integer>255</integer>
 						<key>port</key>
 						<data>
-						CwAAAA==
+						CgAAAA==
 						</data>
 					</dict>
 					<key>HS04</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						CwAAAA==
+						</data>
+					</dict>
+					<key>HS05</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						DAAAAA==
+						</data>
+					</dict>
+					<key>HS06</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>0</integer>
@@ -79,6 +97,15 @@
 						</data>
 					</dict>
 					<key>SS01</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						AQAAAA==
+						</data>
+					</dict>
+					<key>SS02</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
@@ -116,10 +143,19 @@
 						<integer>3</integer>
 						<key>port</key>
 						<data>
-						AgAAAA==
+						AQAAAA==
 						</data>
 					</dict>
 					<key>HS02</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						AgAAAA==
+						</data>
+					</dict>
+					<key>HS03</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
@@ -134,10 +170,19 @@
 						<integer>3</integer>
 						<key>port</key>
 						<data>
-						BgAAAA==
+						BQAAAA==
 						</data>
 					</dict>
 					<key>SS02</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						BgAAAA==
+						</data>
+					</dict>
+					<key>SS03</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
