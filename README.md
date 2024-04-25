@@ -61,6 +61,7 @@
 ### 性能监控
 
 - CPU 监控：[AMD POWER GADGET App](https://github.com/trulyspinach/SMCAMDProcessor) ⚠️ 需要**搭配 SMCAMDProcessor.kext** 使用
+- GPU 监控：[RadeonSensor](https://github.com/aluveitie/RadeonSensor)
 - 显示器亮度调节 🔅：[MonitorControl App](https://github.com/MonitorControl/MonitorControl)
 
 ![](./static/amd-power-gadget.png)
@@ -100,6 +101,12 @@
 在 OpenCore Configurator 应该是这样的：
 
 ![](./static/pcie-occ.png)
+
+
+## 单硬盘双系统
+
+将 Microsoft 放入 OC 中，并在 MISC 设置启动项绝对路径：`\EFI\OC\Microsoft\Boot\bootmgfw.efi`
+
 
 ## 致谢
 
