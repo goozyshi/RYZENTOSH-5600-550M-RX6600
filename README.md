@@ -1,5 +1,7 @@
 # RYZENTOSH-5600-550M-RX6600
 
+> https://drama-blog.vercel.app/posts/hackintosh
+
 👏 **AMD YES** ！基于 OpenCore0.98 的 Ryzen 5600 + Asus B550M-plus + Rx6600 安装的黑苹果，主要用来敲代码，刚需功能已完善，欢迎 star 完善。
 
 ![](./static/info.png)
